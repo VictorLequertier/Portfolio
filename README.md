@@ -2,12 +2,14 @@
 
 ### In this portfolio you can find the code I worked on for the following projects:
 
-#### Master Thesis - Wnowledge Graphs for fake news detection on social media - Msc DAAI EDHEC Business School 2022
+#### - Master Thesis - Wnowledge Graphs for fake news detection on social media - Msc DAAI EDHEC Business School 2022
 
 From the Master Thesis's abstract:
 _The last decade has been strongly marked by the emergence of social media, a new vector of information allowing them to spread faster and wider. This new era have seen the emergence of a new challenge for researchers and data scientists: Detecting fake news before they wildly spread.  Since then, multiple techniques of Natural Language Processing and Natural Language Understanding were put to the test with a measured success rate. On the edge of the NLP domain stands a particular text representation: Knowledge Graphs. Most specifically, in this research I’ll focus on a particular document representation method: Subject-Predicate-Object triplets forming. Even though some recent studies starts using KG to perform classification of fake news [13], most of them rely on using on the usage of existing knowledge bases. That study aims to build an ad-hoc KG from fake news labelled dataset to addressing the issue of extracting valuable data from the KG characteristics and use them to classify the reliability of news._
 
 The complete documented code is available in a nodebook. Through this thesis I used various NLP and Knowledge Graphs python techniques from the Stanford NLP Stanza pipeline to the python Networkx library.
+The original dataset can be found on Kaggle : https://www.kaggle.com/datasets/shivkumarganesh/politifact-factcheck-data
+The intermediate "checkpoints datasets", extracted fom the python code make it possible to run parts of the code only. These datasets are available in this github inside the _politifact_data_ folder 
 
 
 #### - Business Data Management EDHEC course project - 2022
