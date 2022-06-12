@@ -65,3 +65,12 @@ Search for fundings, design of the specifications and of the UX model (on Adobe 
 
 Modelling the spread of epidemics in urban areas using a custom Cellular Automata. Creation of the python model  from scratch. Demonstrating the impact of people behaviours on clusters creation and on the epidemic spread.
 
+The goal of the model is to re-create peoples deplacements in a city and to highlight the impact of "contaminations nests" such as work places for parents or schools for children. I built a cellular automata which consist of a large NxN grid in which poeples (represented as class objects) move according to their status. The simulation runs for a certain amount of time in which people encounters other in some cells of the cellular automata. During these encounters, each has a probability to contaminate other people in the cell.
+At the end of the day, I monitored the evolution of contamination rates given some entry data (contamination rates, starting number of sick people, incubation rates.... etc) and tried to highlight the differences between random movements and high frequented places. 
+At the end of the project, I founded the peoples behaviours in the simulation to be significantly changing the contamination quickness. 
+
+This was my first project in python. I had only a few monthes of experience on the topic and have had only python "algorithmic" classes at this time. Thus the code for this project is not at all optimized and clumsy, still, it worked perfectly and awarded me a grade of 18/20 to the TIPE for the engineering schools entrance exams.
+Should I have a bit of time someday to update it with my new programming skills :).
+
+
+
